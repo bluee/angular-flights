@@ -17,3 +17,5 @@ Sample app utilizing C#, ASP.NET MVC, WebAPI, AngularJS, Grunt, EF Code First
 * NPM and Grunt
 * Nuget
 * Task Runner
+
+![Alt text](Screenshot1.png?raw=true "Version 0.1")
