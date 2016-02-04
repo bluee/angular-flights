@@ -15,4 +15,4 @@ Sample app utilizing C#, ASP.NET MVC, WebAPI, AngularJS, Grunt, EF Code First
 * .NET Framework 4.5.2
 * NPM and Grunt
 * Nuget
-
+* Task Runner
