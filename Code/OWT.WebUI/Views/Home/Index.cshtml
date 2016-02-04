@@ -1,0 +1,38 @@
+﻿@{
+    ViewBag.Title = "One Way Travel";
+}
+
+<h1>One Way Travel</h1>
+<h5>One way with no way back &trade;</h5>
+<div class="jumbotron" id="search" ng-controller="MainController">
+    <form action="#/Search" method="get">
+        <div class="row">
+            <div class="col-md-1">
+                From
+            </div>
+            <div class="col-md-5">
+                <select ng-model="search.from" name="from"
+                        ng-options="item.iata_code as item.municipality for item in data.airports" class="form-control"></select>
+            </div>
+            <div class="col-md-5">
+                <input type="text" pick-a-date="search.datefrom" />
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-1">
+                To
+            </div>
+
+            <div class="col-md-5">
+                <select ng-model="search.to"
+                        ng-options="item.iata_code as item.municipality for item in data.airports" class="form-control"></select>
+            </div>
+            <div class="col-md-5">
+                <a class="btn btn-primary" ng-click="searchButton()">Search</a>
+            </div>
+        </div>
+    </form>
+
+</div>
+
+<section id="content" ng-view></section>
