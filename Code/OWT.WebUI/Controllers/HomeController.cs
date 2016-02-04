@@ -10,6 +10,10 @@ namespace OWT.WebUI.Controllers
 {
     public class HomeController : Controller
     {
+        /// <summary>
+        /// Returns initial page
+        /// </summary>
+        /// <returns></returns>
         public ActionResult Index()
         {
             return View();
