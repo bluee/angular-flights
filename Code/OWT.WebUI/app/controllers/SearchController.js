@@ -1,4 +1,6 @@
-﻿
+﻿/*
+ * Search controller. Display search from routing
+ */
 app.controller('SearchController', function ($scope, $routeParams, commonRepository) {
 
     $scope.data = {

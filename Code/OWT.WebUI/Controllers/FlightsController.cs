@@ -10,6 +10,10 @@ namespace OWT.WebUI
 {
     public class FlightsController : ApiController
     {
+        /// <summary>
+        /// Return list of sample flights. Currently ignores any search parameters due to small mock sample size
+        /// </summary>
+        /// <returns></returns>
         // GET api/<controller>
         public IEnumerable<FlightDataMock> Get()
         {

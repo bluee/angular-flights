@@ -36,9 +36,9 @@ namespace OWT.WebUI
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/bootstrap.css",
                       "~/Content/site.css",
+                      "~/Content/loading-bar.css",
                       "~/Scripts/pickadate/themes/classic.css",
-                      "~/Scripts/pickadate/themes/classic.date.css",
-                      "~/Content/loading-bar.js"
+                      "~/Scripts/pickadate/themes/classic.date.css"
                       ));
         }
     }
