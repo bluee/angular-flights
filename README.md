@@ -8,6 +8,7 @@ Sample app utilizing C#, ASP.NET MVC, WebAPI, AngularJS, Grunt, EF Code First
 * IoC
 * Unit tests
 * More extensive sample data
+* Validation / error checking
 
 ### Pre-requisites
 
